@@ -1,0 +1,16 @@
+body {
+    width: 90%;
+}
+
+.nav-container {
+    display: flex;
+    height: 64px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items {
+    margin: 0 auto;
+
+
+}
