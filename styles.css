@@ -20,7 +20,7 @@ nav {
 
 .nav-container img {
     display: flex;
-    align-self:center;
+    align-self: center;
 }
 
 
@@ -30,11 +30,12 @@ nav {
 }
 
 .cta-section {
-    margin-left: 16px;
+    margin-top: -36px;
     margin-bottom: 16px;
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     background-color: lightgrey;
-    height:auto;
-  
 }
 
 .cta-section h1 {
@@ -42,17 +43,53 @@ nav {
     margin-bottom: 32px;
 }
 
+.cta-section h3 {
+    margin-bottom: 24px;
+
+}
+
 .cta-button {
     width: 90%;
     background-color: grey;
-    margin-top: 24px;
     margin-bottom: 32px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0 auto;
 }
 
 .cta-button h3 {
     text-align: center;
     color: #000;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+.info-section {
+    margin-left: 16px;
+}
+
+
+
+.info-section h3,
+.info-section p,
+.info-section a {
+    margin-left: 16px;
+}
+
+.info-section-orientation,
+.info-section-campus {
+    margin-bottom: 64px;
+}
+
+.info-section-lecture {
+    margin-bottom: 32px;
+}
+
+.learning-section {
+    border: 1px solid lightgrey;
+}
+
+.learning-section h1 {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
