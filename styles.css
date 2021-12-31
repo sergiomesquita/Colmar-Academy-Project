@@ -129,7 +129,45 @@ footer {
 }
 
 @media (min-width: 1024px) {
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 24px;
+        margin-right: 24px;
+        height: 64px;
+    }
+
+    .nav-logo {
+        display: flex;
     
+    }
+
+
+    .nav-links {
+        display: flex;
+    }
+
+    .nav-links p {
+        padding-left: 16px;
+    }
+
+
+    .banner-section {
+        display: flex;
+    }
+
+    .banner-section img {
+        width: 60%;
+        margin: 32px 24px 32px 24px;
+    }
+
+    .banner-text {
+        align-self: center;
+        
+    }
+
+
 
 
 
