@@ -146,6 +146,7 @@ footer {
 
     .nav-links {
         display: flex;
+        align-self: center;
     }
 
     .nav-links p {
@@ -154,6 +155,7 @@ footer {
 
 
     .banner-section {
+        background-color: lightgrey;
         display: flex;
     }
 
