@@ -168,38 +168,48 @@ footer {
         align-self: center;
     }
 
-   
 
-    .main-image-container img{
-        width: 60%;
-        margin: 32px 24px 32px 24px;
-    }
 
-    .main-image-container h1,
-    .main-image-container p {
-        margin-left: 24px;
-    }
-
-    .main-section{
+    .main-section-container {
         display: flex;
     }
 
-   
+    .main-info img {
 
-   .first-image,
-   .second-image,
-   .third-image {
-       display: flex;
-       flex-direction: column;
-   }
+        margin: 32px 24px 32px 24px;
+    }
 
 
+    .main-columns {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+
+    }
+
+    .columns-container {
+        display: flex;
+     
+    }
+
+
+    .main-columns img {
+        width: 35%;
+        height: auto;
+        padding: 16px;
+
+    }
+
+    .columns-text {
+        align-self: center;
+        width: 65%;
+    }
 
 
 
-    
 
-    
+
+
 
 
 
