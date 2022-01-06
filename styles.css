@@ -189,7 +189,10 @@ footer {
 
     .columns-container {
         display: flex;
-     
+    }
+
+    .columns-container:last-child {
+        background-color: lightgrey;
     }
 
 
@@ -205,7 +208,25 @@ footer {
         width: 65%;
     }
 
+    .gallery-section {
+        background-color: lightgrey;
+    }
 
+    .gallery-section h1 {
+        text-align: center;
+        padding-top: 32px;
+
+    }
+
+    .gallery-container {
+        margin: 32px 72px 32px 72px;
+        display: flex;
+    }
+
+    .gallery-container img {
+        height: auto;
+        width: min-content;
+    }
 
 
 
