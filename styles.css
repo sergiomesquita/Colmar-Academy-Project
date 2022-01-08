@@ -168,7 +168,13 @@ footer {
         align-self: center;
     }
 
-
+    .banner-text h3:last-child {
+        color: #fff;
+        background-color: grey;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
 
     .main-section-container {
         display: flex;
@@ -274,7 +280,23 @@ footer {
         height:auto;
     }
 
+    .thesis-card {
+        display: flex;
+    }
 
+    .thesis-card:first-child {
+        background-color: lightgrey;
+    }
+
+
+    .thesis-card img {
+        padding: 16px 16px 16px 16px; 
+    }
+
+    .footer-rights {
+        display: flex;
+        justify-content: space-between;
+    }
 
 
 
