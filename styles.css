@@ -23,6 +23,10 @@ nav {
     align-self: center;
 }
 
+.nav-container {
+    display: none;
+}
+
 
 .banner-image img {
     max-width: 100%;
@@ -129,6 +133,10 @@ footer {
 }
 
 @media (min-width: 1024px) {
+
+    nav {
+        display: none;
+    }
 
     .nav-container {
         display: flex;
