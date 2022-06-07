@@ -23,7 +23,8 @@ nav {
     align-self: center;
 }
 
-.nav-container {
+.nav-container,
+.banner-section {
     display: none;
 }
 
@@ -134,7 +135,9 @@ footer {
 
 @media (min-width: 1024px) {
 
-    nav {
+    nav,
+    .banner-image,
+    .cta-section {
         display: none;
     }
 
